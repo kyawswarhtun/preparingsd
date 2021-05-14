@@ -22,11 +22,11 @@ $ sudo mount /dev/sdb1 /media/BOOT
 
 $ sudo mount /dev/sdb2 /media/ROOT
 
-CMDline.txt 
+#CMDline.txt 
 
 dwc_otg.lpm_enable=0 console=serial0,115200 console=ttyS0 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
 
-Config.txt
+#Config.txt
 
 kernel=kernel_rpilinux.img
 
@@ -42,7 +42,7 @@ $ cd /media/ROOT/
 
 $ sudo tar -xjf ~/Yocto/poky/build/tmp/deploy/images/{$image_name}/{$image_name}.tar.bz2
 
-etc/fstab 
+#etc/fstab 
 
 proc                    /proc           proc    defaults          0       0
 
