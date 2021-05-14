@@ -35,6 +35,9 @@ $ sudo tar -xjf ~/Yocto/poky/build/tmp/deploy/images/{$image_name}/{$image_name}
 etc/fstab 
 
 proc                    /proc           proc    defaults          0       0
+
 /dev/mmcblk0p1          /boot           vfat    defaults          0       2
+
 /dev/mmcblo0p2          /               ext4    defaults,noatime  0       1
+
 
